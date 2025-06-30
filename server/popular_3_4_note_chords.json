@@ -1,0 +1,3482 @@
+[
+  {
+    "root": "C3",
+    "name": "C3 Major",
+    "notes": [
+      "C3",
+      "E3",
+      "G3"
+    ],
+    "midi": [
+      48,
+      52,
+      55
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Minor",
+    "notes": [
+      "C3",
+      "D#3",
+      "G3"
+    ],
+    "midi": [
+      48,
+      51,
+      55
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Diminished",
+    "notes": [
+      "C3",
+      "D#3",
+      "F#3"
+    ],
+    "midi": [
+      48,
+      51,
+      54
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Augmented",
+    "notes": [
+      "C3",
+      "E3",
+      "G#3"
+    ],
+    "midi": [
+      48,
+      52,
+      56
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Major7",
+    "notes": [
+      "C3",
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "midi": [
+      48,
+      52,
+      55,
+      59
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Minor7",
+    "notes": [
+      "C3",
+      "D#3",
+      "G3",
+      "A#3"
+    ],
+    "midi": [
+      48,
+      51,
+      55,
+      58
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Dominant7",
+    "notes": [
+      "C3",
+      "E3",
+      "G3",
+      "A#3"
+    ],
+    "midi": [
+      48,
+      52,
+      55,
+      58
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 HalfDiminished7",
+    "notes": [
+      "C3",
+      "D#3",
+      "F#3",
+      "A#3"
+    ],
+    "midi": [
+      48,
+      51,
+      54,
+      58
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C3",
+    "name": "C3 Diminished7",
+    "notes": [
+      "C3",
+      "D#3",
+      "F#3",
+      "A3"
+    ],
+    "midi": [
+      48,
+      51,
+      54,
+      57
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Major",
+    "notes": [
+      "C#3",
+      "F3",
+      "G#3"
+    ],
+    "midi": [
+      49,
+      53,
+      56
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Minor",
+    "notes": [
+      "C#3",
+      "E3",
+      "G#3"
+    ],
+    "midi": [
+      49,
+      52,
+      56
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Diminished",
+    "notes": [
+      "C#3",
+      "E3",
+      "G3"
+    ],
+    "midi": [
+      49,
+      52,
+      55
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Augmented",
+    "notes": [
+      "C#3",
+      "F3",
+      "A3"
+    ],
+    "midi": [
+      49,
+      53,
+      57
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Major7",
+    "notes": [
+      "C#3",
+      "F3",
+      "G#3",
+      "C4"
+    ],
+    "midi": [
+      49,
+      53,
+      56,
+      60
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Minor7",
+    "notes": [
+      "C#3",
+      "E3",
+      "G#3",
+      "B3"
+    ],
+    "midi": [
+      49,
+      52,
+      56,
+      59
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Dominant7",
+    "notes": [
+      "C#3",
+      "F3",
+      "G#3",
+      "B3"
+    ],
+    "midi": [
+      49,
+      53,
+      56,
+      59
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 HalfDiminished7",
+    "notes": [
+      "C#3",
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "midi": [
+      49,
+      52,
+      55,
+      59
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#3",
+    "name": "C#3 Diminished7",
+    "notes": [
+      "C#3",
+      "E3",
+      "G3",
+      "A#3"
+    ],
+    "midi": [
+      49,
+      52,
+      55,
+      58
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Major",
+    "notes": [
+      "D3",
+      "F#3",
+      "A3"
+    ],
+    "midi": [
+      50,
+      54,
+      57
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Minor",
+    "notes": [
+      "D3",
+      "F3",
+      "A3"
+    ],
+    "midi": [
+      50,
+      53,
+      57
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Diminished",
+    "notes": [
+      "D3",
+      "F3",
+      "G#3"
+    ],
+    "midi": [
+      50,
+      53,
+      56
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Augmented",
+    "notes": [
+      "D3",
+      "F#3",
+      "A#3"
+    ],
+    "midi": [
+      50,
+      54,
+      58
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Major7",
+    "notes": [
+      "D3",
+      "F#3",
+      "A3",
+      "C#4"
+    ],
+    "midi": [
+      50,
+      54,
+      57,
+      61
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Minor7",
+    "notes": [
+      "D3",
+      "F3",
+      "A3",
+      "C4"
+    ],
+    "midi": [
+      50,
+      53,
+      57,
+      60
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Dominant7",
+    "notes": [
+      "D3",
+      "F#3",
+      "A3",
+      "C4"
+    ],
+    "midi": [
+      50,
+      54,
+      57,
+      60
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 HalfDiminished7",
+    "notes": [
+      "D3",
+      "F3",
+      "G#3",
+      "C4"
+    ],
+    "midi": [
+      50,
+      53,
+      56,
+      60
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D3",
+    "name": "D3 Diminished7",
+    "notes": [
+      "D3",
+      "F3",
+      "G#3",
+      "B3"
+    ],
+    "midi": [
+      50,
+      53,
+      56,
+      59
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Major",
+    "notes": [
+      "D#3",
+      "G3",
+      "A#3"
+    ],
+    "midi": [
+      51,
+      55,
+      58
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Minor",
+    "notes": [
+      "D#3",
+      "F#3",
+      "A#3"
+    ],
+    "midi": [
+      51,
+      54,
+      58
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Diminished",
+    "notes": [
+      "D#3",
+      "F#3",
+      "A3"
+    ],
+    "midi": [
+      51,
+      54,
+      57
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Augmented",
+    "notes": [
+      "D#3",
+      "G3",
+      "B3"
+    ],
+    "midi": [
+      51,
+      55,
+      59
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Major7",
+    "notes": [
+      "D#3",
+      "G3",
+      "A#3",
+      "D4"
+    ],
+    "midi": [
+      51,
+      55,
+      58,
+      62
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Minor7",
+    "notes": [
+      "D#3",
+      "F#3",
+      "A#3",
+      "C#4"
+    ],
+    "midi": [
+      51,
+      54,
+      58,
+      61
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Dominant7",
+    "notes": [
+      "D#3",
+      "G3",
+      "A#3",
+      "C#4"
+    ],
+    "midi": [
+      51,
+      55,
+      58,
+      61
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 HalfDiminished7",
+    "notes": [
+      "D#3",
+      "F#3",
+      "A3",
+      "C#4"
+    ],
+    "midi": [
+      51,
+      54,
+      57,
+      61
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#3",
+    "name": "D#3 Diminished7",
+    "notes": [
+      "D#3",
+      "F#3",
+      "A3",
+      "C4"
+    ],
+    "midi": [
+      51,
+      54,
+      57,
+      60
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Major",
+    "notes": [
+      "E3",
+      "G#3",
+      "B3"
+    ],
+    "midi": [
+      52,
+      56,
+      59
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Minor",
+    "notes": [
+      "E3",
+      "G3",
+      "B3"
+    ],
+    "midi": [
+      52,
+      55,
+      59
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Diminished",
+    "notes": [
+      "E3",
+      "G3",
+      "A#3"
+    ],
+    "midi": [
+      52,
+      55,
+      58
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Augmented",
+    "notes": [
+      "E3",
+      "G#3",
+      "C4"
+    ],
+    "midi": [
+      52,
+      56,
+      60
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Major7",
+    "notes": [
+      "E3",
+      "G#3",
+      "B3",
+      "D#4"
+    ],
+    "midi": [
+      52,
+      56,
+      59,
+      63
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Minor7",
+    "notes": [
+      "E3",
+      "G3",
+      "B3",
+      "D4"
+    ],
+    "midi": [
+      52,
+      55,
+      59,
+      62
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Dominant7",
+    "notes": [
+      "E3",
+      "G#3",
+      "B3",
+      "D4"
+    ],
+    "midi": [
+      52,
+      56,
+      59,
+      62
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 HalfDiminished7",
+    "notes": [
+      "E3",
+      "G3",
+      "A#3",
+      "D4"
+    ],
+    "midi": [
+      52,
+      55,
+      58,
+      62
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E3",
+    "name": "E3 Diminished7",
+    "notes": [
+      "E3",
+      "G3",
+      "A#3",
+      "C#4"
+    ],
+    "midi": [
+      52,
+      55,
+      58,
+      61
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Major",
+    "notes": [
+      "F3",
+      "A3",
+      "C4"
+    ],
+    "midi": [
+      53,
+      57,
+      60
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Minor",
+    "notes": [
+      "F3",
+      "G#3",
+      "C4"
+    ],
+    "midi": [
+      53,
+      56,
+      60
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Diminished",
+    "notes": [
+      "F3",
+      "G#3",
+      "B3"
+    ],
+    "midi": [
+      53,
+      56,
+      59
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Augmented",
+    "notes": [
+      "F3",
+      "A3",
+      "C#4"
+    ],
+    "midi": [
+      53,
+      57,
+      61
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Major7",
+    "notes": [
+      "F3",
+      "A3",
+      "C4",
+      "E4"
+    ],
+    "midi": [
+      53,
+      57,
+      60,
+      64
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Minor7",
+    "notes": [
+      "F3",
+      "G#3",
+      "C4",
+      "D#4"
+    ],
+    "midi": [
+      53,
+      56,
+      60,
+      63
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Dominant7",
+    "notes": [
+      "F3",
+      "A3",
+      "C4",
+      "D#4"
+    ],
+    "midi": [
+      53,
+      57,
+      60,
+      63
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 HalfDiminished7",
+    "notes": [
+      "F3",
+      "G#3",
+      "B3",
+      "D#4"
+    ],
+    "midi": [
+      53,
+      56,
+      59,
+      63
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F3",
+    "name": "F3 Diminished7",
+    "notes": [
+      "F3",
+      "G#3",
+      "B3",
+      "D4"
+    ],
+    "midi": [
+      53,
+      56,
+      59,
+      62
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Major",
+    "notes": [
+      "F#3",
+      "A#3",
+      "C#4"
+    ],
+    "midi": [
+      54,
+      58,
+      61
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Minor",
+    "notes": [
+      "F#3",
+      "A3",
+      "C#4"
+    ],
+    "midi": [
+      54,
+      57,
+      61
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Diminished",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4"
+    ],
+    "midi": [
+      54,
+      57,
+      60
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Augmented",
+    "notes": [
+      "F#3",
+      "A#3",
+      "D4"
+    ],
+    "midi": [
+      54,
+      58,
+      62
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Major7",
+    "notes": [
+      "F#3",
+      "A#3",
+      "C#4",
+      "F4"
+    ],
+    "midi": [
+      54,
+      58,
+      61,
+      65
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Minor7",
+    "notes": [
+      "F#3",
+      "A3",
+      "C#4",
+      "E4"
+    ],
+    "midi": [
+      54,
+      57,
+      61,
+      64
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Dominant7",
+    "notes": [
+      "F#3",
+      "A#3",
+      "C#4",
+      "E4"
+    ],
+    "midi": [
+      54,
+      58,
+      61,
+      64
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 HalfDiminished7",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4",
+      "E4"
+    ],
+    "midi": [
+      54,
+      57,
+      60,
+      64
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#3",
+    "name": "F#3 Diminished7",
+    "notes": [
+      "F#3",
+      "A3",
+      "C4",
+      "D#4"
+    ],
+    "midi": [
+      54,
+      57,
+      60,
+      63
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Major",
+    "notes": [
+      "G3",
+      "B3",
+      "D4"
+    ],
+    "midi": [
+      55,
+      59,
+      62
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Minor",
+    "notes": [
+      "G3",
+      "A#3",
+      "D4"
+    ],
+    "midi": [
+      55,
+      58,
+      62
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Diminished",
+    "notes": [
+      "G3",
+      "A#3",
+      "C#4"
+    ],
+    "midi": [
+      55,
+      58,
+      61
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Augmented",
+    "notes": [
+      "G3",
+      "B3",
+      "D#4"
+    ],
+    "midi": [
+      55,
+      59,
+      63
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Major7",
+    "notes": [
+      "G3",
+      "B3",
+      "D4",
+      "F#4"
+    ],
+    "midi": [
+      55,
+      59,
+      62,
+      66
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Minor7",
+    "notes": [
+      "G3",
+      "A#3",
+      "D4",
+      "F4"
+    ],
+    "midi": [
+      55,
+      58,
+      62,
+      65
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Dominant7",
+    "notes": [
+      "G3",
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "midi": [
+      55,
+      59,
+      62,
+      65
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 HalfDiminished7",
+    "notes": [
+      "G3",
+      "A#3",
+      "C#4",
+      "F4"
+    ],
+    "midi": [
+      55,
+      58,
+      61,
+      65
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G3",
+    "name": "G3 Diminished7",
+    "notes": [
+      "G3",
+      "A#3",
+      "C#4",
+      "E4"
+    ],
+    "midi": [
+      55,
+      58,
+      61,
+      64
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Major",
+    "notes": [
+      "G#3",
+      "C4",
+      "D#4"
+    ],
+    "midi": [
+      56,
+      60,
+      63
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Minor",
+    "notes": [
+      "G#3",
+      "B3",
+      "D#4"
+    ],
+    "midi": [
+      56,
+      59,
+      63
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Diminished",
+    "notes": [
+      "G#3",
+      "B3",
+      "D4"
+    ],
+    "midi": [
+      56,
+      59,
+      62
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Augmented",
+    "notes": [
+      "G#3",
+      "C4",
+      "E4"
+    ],
+    "midi": [
+      56,
+      60,
+      64
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Major7",
+    "notes": [
+      "G#3",
+      "C4",
+      "D#4",
+      "G4"
+    ],
+    "midi": [
+      56,
+      60,
+      63,
+      67
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Minor7",
+    "notes": [
+      "G#3",
+      "B3",
+      "D#4",
+      "F#4"
+    ],
+    "midi": [
+      56,
+      59,
+      63,
+      66
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Dominant7",
+    "notes": [
+      "G#3",
+      "C4",
+      "D#4",
+      "F#4"
+    ],
+    "midi": [
+      56,
+      60,
+      63,
+      66
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 HalfDiminished7",
+    "notes": [
+      "G#3",
+      "B3",
+      "D4",
+      "F#4"
+    ],
+    "midi": [
+      56,
+      59,
+      62,
+      66
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#3",
+    "name": "G#3 Diminished7",
+    "notes": [
+      "G#3",
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "midi": [
+      56,
+      59,
+      62,
+      65
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Major",
+    "notes": [
+      "A3",
+      "C#4",
+      "E4"
+    ],
+    "midi": [
+      57,
+      61,
+      64
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Minor",
+    "notes": [
+      "A3",
+      "C4",
+      "E4"
+    ],
+    "midi": [
+      57,
+      60,
+      64
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Diminished",
+    "notes": [
+      "A3",
+      "C4",
+      "D#4"
+    ],
+    "midi": [
+      57,
+      60,
+      63
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Augmented",
+    "notes": [
+      "A3",
+      "C#4",
+      "F4"
+    ],
+    "midi": [
+      57,
+      61,
+      65
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Major7",
+    "notes": [
+      "A3",
+      "C#4",
+      "E4",
+      "G#4"
+    ],
+    "midi": [
+      57,
+      61,
+      64,
+      68
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Minor7",
+    "notes": [
+      "A3",
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "midi": [
+      57,
+      60,
+      64,
+      67
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Dominant7",
+    "notes": [
+      "A3",
+      "C#4",
+      "E4",
+      "G4"
+    ],
+    "midi": [
+      57,
+      61,
+      64,
+      67
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 HalfDiminished7",
+    "notes": [
+      "A3",
+      "C4",
+      "D#4",
+      "G4"
+    ],
+    "midi": [
+      57,
+      60,
+      63,
+      67
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A3",
+    "name": "A3 Diminished7",
+    "notes": [
+      "A3",
+      "C4",
+      "D#4",
+      "F#4"
+    ],
+    "midi": [
+      57,
+      60,
+      63,
+      66
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Major",
+    "notes": [
+      "A#3",
+      "D4",
+      "F4"
+    ],
+    "midi": [
+      58,
+      62,
+      65
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Minor",
+    "notes": [
+      "A#3",
+      "C#4",
+      "F4"
+    ],
+    "midi": [
+      58,
+      61,
+      65
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Diminished",
+    "notes": [
+      "A#3",
+      "C#4",
+      "E4"
+    ],
+    "midi": [
+      58,
+      61,
+      64
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Augmented",
+    "notes": [
+      "A#3",
+      "D4",
+      "F#4"
+    ],
+    "midi": [
+      58,
+      62,
+      66
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Major7",
+    "notes": [
+      "A#3",
+      "D4",
+      "F4",
+      "A4"
+    ],
+    "midi": [
+      58,
+      62,
+      65,
+      69
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Minor7",
+    "notes": [
+      "A#3",
+      "C#4",
+      "F4",
+      "G#4"
+    ],
+    "midi": [
+      58,
+      61,
+      65,
+      68
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Dominant7",
+    "notes": [
+      "A#3",
+      "D4",
+      "F4",
+      "G#4"
+    ],
+    "midi": [
+      58,
+      62,
+      65,
+      68
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 HalfDiminished7",
+    "notes": [
+      "A#3",
+      "C#4",
+      "E4",
+      "G#4"
+    ],
+    "midi": [
+      58,
+      61,
+      64,
+      68
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#3",
+    "name": "A#3 Diminished7",
+    "notes": [
+      "A#3",
+      "C#4",
+      "E4",
+      "G4"
+    ],
+    "midi": [
+      58,
+      61,
+      64,
+      67
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Major",
+    "notes": [
+      "B3",
+      "D#4",
+      "F#4"
+    ],
+    "midi": [
+      59,
+      63,
+      66
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Minor",
+    "notes": [
+      "B3",
+      "D4",
+      "F#4"
+    ],
+    "midi": [
+      59,
+      62,
+      66
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Diminished",
+    "notes": [
+      "B3",
+      "D4",
+      "F4"
+    ],
+    "midi": [
+      59,
+      62,
+      65
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Augmented",
+    "notes": [
+      "B3",
+      "D#4",
+      "G4"
+    ],
+    "midi": [
+      59,
+      63,
+      67
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Major7",
+    "notes": [
+      "B3",
+      "D#4",
+      "F#4",
+      "A#4"
+    ],
+    "midi": [
+      59,
+      63,
+      66,
+      70
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Minor7",
+    "notes": [
+      "B3",
+      "D4",
+      "F#4",
+      "A4"
+    ],
+    "midi": [
+      59,
+      62,
+      66,
+      69
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Dominant7",
+    "notes": [
+      "B3",
+      "D#4",
+      "F#4",
+      "A4"
+    ],
+    "midi": [
+      59,
+      63,
+      66,
+      69
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 HalfDiminished7",
+    "notes": [
+      "B3",
+      "D4",
+      "F4",
+      "A4"
+    ],
+    "midi": [
+      59,
+      62,
+      65,
+      69
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B3",
+    "name": "B3 Diminished7",
+    "notes": [
+      "B3",
+      "D4",
+      "F4",
+      "G#4"
+    ],
+    "midi": [
+      59,
+      62,
+      65,
+      68
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Major",
+    "notes": [
+      "C4",
+      "E4",
+      "G4"
+    ],
+    "midi": [
+      60,
+      64,
+      67
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Minor",
+    "notes": [
+      "C4",
+      "D#4",
+      "G4"
+    ],
+    "midi": [
+      60,
+      63,
+      67
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Diminished",
+    "notes": [
+      "C4",
+      "D#4",
+      "F#4"
+    ],
+    "midi": [
+      60,
+      63,
+      66
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Augmented",
+    "notes": [
+      "C4",
+      "E4",
+      "G#4"
+    ],
+    "midi": [
+      60,
+      64,
+      68
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Major7",
+    "notes": [
+      "C4",
+      "E4",
+      "G4",
+      "B4"
+    ],
+    "midi": [
+      60,
+      64,
+      67,
+      71
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Minor7",
+    "notes": [
+      "C4",
+      "D#4",
+      "G4",
+      "A#4"
+    ],
+    "midi": [
+      60,
+      63,
+      67,
+      70
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Dominant7",
+    "notes": [
+      "C4",
+      "E4",
+      "G4",
+      "A#4"
+    ],
+    "midi": [
+      60,
+      64,
+      67,
+      70
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 HalfDiminished7",
+    "notes": [
+      "C4",
+      "D#4",
+      "F#4",
+      "A#4"
+    ],
+    "midi": [
+      60,
+      63,
+      66,
+      70
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C4",
+    "name": "C4 Diminished7",
+    "notes": [
+      "C4",
+      "D#4",
+      "F#4",
+      "A4"
+    ],
+    "midi": [
+      60,
+      63,
+      66,
+      69
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Major",
+    "notes": [
+      "C#4",
+      "F4",
+      "G#4"
+    ],
+    "midi": [
+      61,
+      65,
+      68
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Minor",
+    "notes": [
+      "C#4",
+      "E4",
+      "G#4"
+    ],
+    "midi": [
+      61,
+      64,
+      68
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Diminished",
+    "notes": [
+      "C#4",
+      "E4",
+      "G4"
+    ],
+    "midi": [
+      61,
+      64,
+      67
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Augmented",
+    "notes": [
+      "C#4",
+      "F4",
+      "A4"
+    ],
+    "midi": [
+      61,
+      65,
+      69
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Major7",
+    "notes": [
+      "C#4",
+      "F4",
+      "G#4",
+      "C5"
+    ],
+    "midi": [
+      61,
+      65,
+      68,
+      72
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Minor7",
+    "notes": [
+      "C#4",
+      "E4",
+      "G#4",
+      "B4"
+    ],
+    "midi": [
+      61,
+      64,
+      68,
+      71
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Dominant7",
+    "notes": [
+      "C#4",
+      "F4",
+      "G#4",
+      "B4"
+    ],
+    "midi": [
+      61,
+      65,
+      68,
+      71
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 HalfDiminished7",
+    "notes": [
+      "C#4",
+      "E4",
+      "G4",
+      "B4"
+    ],
+    "midi": [
+      61,
+      64,
+      67,
+      71
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "C#4",
+    "name": "C#4 Diminished7",
+    "notes": [
+      "C#4",
+      "E4",
+      "G4",
+      "A#4"
+    ],
+    "midi": [
+      61,
+      64,
+      67,
+      70
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Major",
+    "notes": [
+      "D4",
+      "F#4",
+      "A4"
+    ],
+    "midi": [
+      62,
+      66,
+      69
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Minor",
+    "notes": [
+      "D4",
+      "F4",
+      "A4"
+    ],
+    "midi": [
+      62,
+      65,
+      69
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Diminished",
+    "notes": [
+      "D4",
+      "F4",
+      "G#4"
+    ],
+    "midi": [
+      62,
+      65,
+      68
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Augmented",
+    "notes": [
+      "D4",
+      "F#4",
+      "A#4"
+    ],
+    "midi": [
+      62,
+      66,
+      70
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Major7",
+    "notes": [
+      "D4",
+      "F#4",
+      "A4",
+      "C#5"
+    ],
+    "midi": [
+      62,
+      66,
+      69,
+      73
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Minor7",
+    "notes": [
+      "D4",
+      "F4",
+      "A4",
+      "C5"
+    ],
+    "midi": [
+      62,
+      65,
+      69,
+      72
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Dominant7",
+    "notes": [
+      "D4",
+      "F#4",
+      "A4",
+      "C5"
+    ],
+    "midi": [
+      62,
+      66,
+      69,
+      72
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 HalfDiminished7",
+    "notes": [
+      "D4",
+      "F4",
+      "G#4",
+      "C5"
+    ],
+    "midi": [
+      62,
+      65,
+      68,
+      72
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D4",
+    "name": "D4 Diminished7",
+    "notes": [
+      "D4",
+      "F4",
+      "G#4",
+      "B4"
+    ],
+    "midi": [
+      62,
+      65,
+      68,
+      71
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Major",
+    "notes": [
+      "D#4",
+      "G4",
+      "A#4"
+    ],
+    "midi": [
+      63,
+      67,
+      70
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Minor",
+    "notes": [
+      "D#4",
+      "F#4",
+      "A#4"
+    ],
+    "midi": [
+      63,
+      66,
+      70
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Diminished",
+    "notes": [
+      "D#4",
+      "F#4",
+      "A4"
+    ],
+    "midi": [
+      63,
+      66,
+      69
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Augmented",
+    "notes": [
+      "D#4",
+      "G4",
+      "B4"
+    ],
+    "midi": [
+      63,
+      67,
+      71
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Major7",
+    "notes": [
+      "D#4",
+      "G4",
+      "A#4",
+      "D5"
+    ],
+    "midi": [
+      63,
+      67,
+      70,
+      74
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Minor7",
+    "notes": [
+      "D#4",
+      "F#4",
+      "A#4",
+      "C#5"
+    ],
+    "midi": [
+      63,
+      66,
+      70,
+      73
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Dominant7",
+    "notes": [
+      "D#4",
+      "G4",
+      "A#4",
+      "C#5"
+    ],
+    "midi": [
+      63,
+      67,
+      70,
+      73
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 HalfDiminished7",
+    "notes": [
+      "D#4",
+      "F#4",
+      "A4",
+      "C#5"
+    ],
+    "midi": [
+      63,
+      66,
+      69,
+      73
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "D#4",
+    "name": "D#4 Diminished7",
+    "notes": [
+      "D#4",
+      "F#4",
+      "A4",
+      "C5"
+    ],
+    "midi": [
+      63,
+      66,
+      69,
+      72
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Major",
+    "notes": [
+      "E4",
+      "G#4",
+      "B4"
+    ],
+    "midi": [
+      64,
+      68,
+      71
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Minor",
+    "notes": [
+      "E4",
+      "G4",
+      "B4"
+    ],
+    "midi": [
+      64,
+      67,
+      71
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Diminished",
+    "notes": [
+      "E4",
+      "G4",
+      "A#4"
+    ],
+    "midi": [
+      64,
+      67,
+      70
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Augmented",
+    "notes": [
+      "E4",
+      "G#4",
+      "C5"
+    ],
+    "midi": [
+      64,
+      68,
+      72
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Major7",
+    "notes": [
+      "E4",
+      "G#4",
+      "B4",
+      "D#5"
+    ],
+    "midi": [
+      64,
+      68,
+      71,
+      75
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Minor7",
+    "notes": [
+      "E4",
+      "G4",
+      "B4",
+      "D5"
+    ],
+    "midi": [
+      64,
+      67,
+      71,
+      74
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Dominant7",
+    "notes": [
+      "E4",
+      "G#4",
+      "B4",
+      "D5"
+    ],
+    "midi": [
+      64,
+      68,
+      71,
+      74
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 HalfDiminished7",
+    "notes": [
+      "E4",
+      "G4",
+      "A#4",
+      "D5"
+    ],
+    "midi": [
+      64,
+      67,
+      70,
+      74
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "E4",
+    "name": "E4 Diminished7",
+    "notes": [
+      "E4",
+      "G4",
+      "A#4",
+      "C#5"
+    ],
+    "midi": [
+      64,
+      67,
+      70,
+      73
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Major",
+    "notes": [
+      "F4",
+      "A4",
+      "C5"
+    ],
+    "midi": [
+      65,
+      69,
+      72
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Minor",
+    "notes": [
+      "F4",
+      "G#4",
+      "C5"
+    ],
+    "midi": [
+      65,
+      68,
+      72
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Diminished",
+    "notes": [
+      "F4",
+      "G#4",
+      "B4"
+    ],
+    "midi": [
+      65,
+      68,
+      71
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Augmented",
+    "notes": [
+      "F4",
+      "A4",
+      "C#5"
+    ],
+    "midi": [
+      65,
+      69,
+      73
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Major7",
+    "notes": [
+      "F4",
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "midi": [
+      65,
+      69,
+      72,
+      76
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Minor7",
+    "notes": [
+      "F4",
+      "G#4",
+      "C5",
+      "D#5"
+    ],
+    "midi": [
+      65,
+      68,
+      72,
+      75
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Dominant7",
+    "notes": [
+      "F4",
+      "A4",
+      "C5",
+      "D#5"
+    ],
+    "midi": [
+      65,
+      69,
+      72,
+      75
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 HalfDiminished7",
+    "notes": [
+      "F4",
+      "G#4",
+      "B4",
+      "D#5"
+    ],
+    "midi": [
+      65,
+      68,
+      71,
+      75
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F4",
+    "name": "F4 Diminished7",
+    "notes": [
+      "F4",
+      "G#4",
+      "B4",
+      "D5"
+    ],
+    "midi": [
+      65,
+      68,
+      71,
+      74
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Major",
+    "notes": [
+      "F#4",
+      "A#4",
+      "C#5"
+    ],
+    "midi": [
+      66,
+      70,
+      73
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Minor",
+    "notes": [
+      "F#4",
+      "A4",
+      "C#5"
+    ],
+    "midi": [
+      66,
+      69,
+      73
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Diminished",
+    "notes": [
+      "F#4",
+      "A4",
+      "C5"
+    ],
+    "midi": [
+      66,
+      69,
+      72
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Augmented",
+    "notes": [
+      "F#4",
+      "A#4",
+      "D5"
+    ],
+    "midi": [
+      66,
+      70,
+      74
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Major7",
+    "notes": [
+      "F#4",
+      "A#4",
+      "C#5",
+      "F5"
+    ],
+    "midi": [
+      66,
+      70,
+      73,
+      77
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Minor7",
+    "notes": [
+      "F#4",
+      "A4",
+      "C#5",
+      "E5"
+    ],
+    "midi": [
+      66,
+      69,
+      73,
+      76
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Dominant7",
+    "notes": [
+      "F#4",
+      "A#4",
+      "C#5",
+      "E5"
+    ],
+    "midi": [
+      66,
+      70,
+      73,
+      76
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 HalfDiminished7",
+    "notes": [
+      "F#4",
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "midi": [
+      66,
+      69,
+      72,
+      76
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "F#4",
+    "name": "F#4 Diminished7",
+    "notes": [
+      "F#4",
+      "A4",
+      "C5",
+      "D#5"
+    ],
+    "midi": [
+      66,
+      69,
+      72,
+      75
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Major",
+    "notes": [
+      "G4",
+      "B4",
+      "D5"
+    ],
+    "midi": [
+      67,
+      71,
+      74
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Minor",
+    "notes": [
+      "G4",
+      "A#4",
+      "D5"
+    ],
+    "midi": [
+      67,
+      70,
+      74
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Diminished",
+    "notes": [
+      "G4",
+      "A#4",
+      "C#5"
+    ],
+    "midi": [
+      67,
+      70,
+      73
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Augmented",
+    "notes": [
+      "G4",
+      "B4",
+      "D#5"
+    ],
+    "midi": [
+      67,
+      71,
+      75
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Major7",
+    "notes": [
+      "G4",
+      "B4",
+      "D5",
+      "F#5"
+    ],
+    "midi": [
+      67,
+      71,
+      74,
+      78
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Minor7",
+    "notes": [
+      "G4",
+      "A#4",
+      "D5",
+      "F5"
+    ],
+    "midi": [
+      67,
+      70,
+      74,
+      77
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Dominant7",
+    "notes": [
+      "G4",
+      "B4",
+      "D5",
+      "F5"
+    ],
+    "midi": [
+      67,
+      71,
+      74,
+      77
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 HalfDiminished7",
+    "notes": [
+      "G4",
+      "A#4",
+      "C#5",
+      "F5"
+    ],
+    "midi": [
+      67,
+      70,
+      73,
+      77
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G4",
+    "name": "G4 Diminished7",
+    "notes": [
+      "G4",
+      "A#4",
+      "C#5",
+      "E5"
+    ],
+    "midi": [
+      67,
+      70,
+      73,
+      76
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Major",
+    "notes": [
+      "G#4",
+      "C5",
+      "D#5"
+    ],
+    "midi": [
+      68,
+      72,
+      75
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Minor",
+    "notes": [
+      "G#4",
+      "B4",
+      "D#5"
+    ],
+    "midi": [
+      68,
+      71,
+      75
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Diminished",
+    "notes": [
+      "G#4",
+      "B4",
+      "D5"
+    ],
+    "midi": [
+      68,
+      71,
+      74
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Augmented",
+    "notes": [
+      "G#4",
+      "C5",
+      "E5"
+    ],
+    "midi": [
+      68,
+      72,
+      76
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Major7",
+    "notes": [
+      "G#4",
+      "C5",
+      "D#5",
+      "G5"
+    ],
+    "midi": [
+      68,
+      72,
+      75,
+      79
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Minor7",
+    "notes": [
+      "G#4",
+      "B4",
+      "D#5",
+      "F#5"
+    ],
+    "midi": [
+      68,
+      71,
+      75,
+      78
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Dominant7",
+    "notes": [
+      "G#4",
+      "C5",
+      "D#5",
+      "F#5"
+    ],
+    "midi": [
+      68,
+      72,
+      75,
+      78
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 HalfDiminished7",
+    "notes": [
+      "G#4",
+      "B4",
+      "D5",
+      "F#5"
+    ],
+    "midi": [
+      68,
+      71,
+      74,
+      78
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "G#4",
+    "name": "G#4 Diminished7",
+    "notes": [
+      "G#4",
+      "B4",
+      "D5",
+      "F5"
+    ],
+    "midi": [
+      68,
+      71,
+      74,
+      77
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Major",
+    "notes": [
+      "A4",
+      "C#5",
+      "E5"
+    ],
+    "midi": [
+      69,
+      73,
+      76
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Minor",
+    "notes": [
+      "A4",
+      "C5",
+      "E5"
+    ],
+    "midi": [
+      69,
+      72,
+      76
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Diminished",
+    "notes": [
+      "A4",
+      "C5",
+      "D#5"
+    ],
+    "midi": [
+      69,
+      72,
+      75
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Augmented",
+    "notes": [
+      "A4",
+      "C#5",
+      "F5"
+    ],
+    "midi": [
+      69,
+      73,
+      77
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Major7",
+    "notes": [
+      "A4",
+      "C#5",
+      "E5",
+      "G#5"
+    ],
+    "midi": [
+      69,
+      73,
+      76,
+      80
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Minor7",
+    "notes": [
+      "A4",
+      "C5",
+      "E5",
+      "G5"
+    ],
+    "midi": [
+      69,
+      72,
+      76,
+      79
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Dominant7",
+    "notes": [
+      "A4",
+      "C#5",
+      "E5",
+      "G5"
+    ],
+    "midi": [
+      69,
+      73,
+      76,
+      79
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 HalfDiminished7",
+    "notes": [
+      "A4",
+      "C5",
+      "D#5",
+      "G5"
+    ],
+    "midi": [
+      69,
+      72,
+      75,
+      79
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A4",
+    "name": "A4 Diminished7",
+    "notes": [
+      "A4",
+      "C5",
+      "D#5",
+      "F#5"
+    ],
+    "midi": [
+      69,
+      72,
+      75,
+      78
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Major",
+    "notes": [
+      "A#4",
+      "D5",
+      "F5"
+    ],
+    "midi": [
+      70,
+      74,
+      77
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Minor",
+    "notes": [
+      "A#4",
+      "C#5",
+      "F5"
+    ],
+    "midi": [
+      70,
+      73,
+      77
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Diminished",
+    "notes": [
+      "A#4",
+      "C#5",
+      "E5"
+    ],
+    "midi": [
+      70,
+      73,
+      76
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Augmented",
+    "notes": [
+      "A#4",
+      "D5",
+      "F#5"
+    ],
+    "midi": [
+      70,
+      74,
+      78
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Major7",
+    "notes": [
+      "A#4",
+      "D5",
+      "F5",
+      "A5"
+    ],
+    "midi": [
+      70,
+      74,
+      77,
+      81
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Minor7",
+    "notes": [
+      "A#4",
+      "C#5",
+      "F5",
+      "G#5"
+    ],
+    "midi": [
+      70,
+      73,
+      77,
+      80
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Dominant7",
+    "notes": [
+      "A#4",
+      "D5",
+      "F5",
+      "G#5"
+    ],
+    "midi": [
+      70,
+      74,
+      77,
+      80
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 HalfDiminished7",
+    "notes": [
+      "A#4",
+      "C#5",
+      "E5",
+      "G#5"
+    ],
+    "midi": [
+      70,
+      73,
+      76,
+      80
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "A#4",
+    "name": "A#4 Diminished7",
+    "notes": [
+      "A#4",
+      "C#5",
+      "E5",
+      "G5"
+    ],
+    "midi": [
+      70,
+      73,
+      76,
+      79
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Major",
+    "notes": [
+      "B4",
+      "D#5",
+      "F#5"
+    ],
+    "midi": [
+      71,
+      75,
+      78
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Minor",
+    "notes": [
+      "B4",
+      "D5",
+      "F#5"
+    ],
+    "midi": [
+      71,
+      74,
+      78
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Diminished",
+    "notes": [
+      "B4",
+      "D5",
+      "F5"
+    ],
+    "midi": [
+      71,
+      74,
+      77
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Augmented",
+    "notes": [
+      "B4",
+      "D#5",
+      "G5"
+    ],
+    "midi": [
+      71,
+      75,
+      79
+    ],
+    "type": "3-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Major7",
+    "notes": [
+      "B4",
+      "D#5",
+      "F#5",
+      "A#5"
+    ],
+    "midi": [
+      71,
+      75,
+      78,
+      82
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Minor7",
+    "notes": [
+      "B4",
+      "D5",
+      "F#5",
+      "A5"
+    ],
+    "midi": [
+      71,
+      74,
+      78,
+      81
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Dominant7",
+    "notes": [
+      "B4",
+      "D#5",
+      "F#5",
+      "A5"
+    ],
+    "midi": [
+      71,
+      75,
+      78,
+      81
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 HalfDiminished7",
+    "notes": [
+      "B4",
+      "D5",
+      "F5",
+      "A5"
+    ],
+    "midi": [
+      71,
+      74,
+      77,
+      81
+    ],
+    "type": "4-note"
+  },
+  {
+    "root": "B4",
+    "name": "B4 Diminished7",
+    "notes": [
+      "B4",
+      "D5",
+      "F5",
+      "G#5"
+    ],
+    "midi": [
+      71,
+      74,
+      77,
+      80
+    ],
+    "type": "4-note"
+  }
+]

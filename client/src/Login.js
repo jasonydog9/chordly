@@ -1,0 +1,52 @@
+// Login.js
+import React from 'react';
+import { signInWithPopup } from 'firebase/auth';
+import { auth, provider } from './firebase';
+
+const Login = () => {
+  const handleLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
+      const idToken = await user.getIdToken();
+
+      console.log('User:', user);
+      console.log('Token:', idToken);
+
+      console.log('Sending POST to backend with token...');
+      const res = await fetch('http://localhost:3001/api/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${idToken}`,
+        },
+      });
+
+      const data = await res.json();
+      console.log('✅ Logged in as:', data.user);
+      alert(`Welcome, ${data.user.displayName}!`);
+    } catch (err) {
+      console.error('❌ Google login error:', err);
+      alert('Login failed.');
+    }
+  };
+
+  return (
+    <div style={{ textAlign: 'center', marginTop: '100px' }}>
+      <h2>🎵 Welcome to Chordly</h2>
+      <button onClick={handleLogin} style={{
+        padding: '10px 20px',
+        fontSize: '16px',
+        backgroundColor: '#4285F4',
+        color: '#fff',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer'
+      }}>
+        Sign in with Google
+      </button>
+    </div>
+  );
+};
+
+export default Login;

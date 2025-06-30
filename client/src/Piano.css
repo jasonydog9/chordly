@@ -1,0 +1,38 @@
+.game-container {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.guess-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.guess-box {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #444;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #eee;
+}
+
+.guess-box.green {
+  background-color: #6aaa64;
+  color: white;
+}
+
+.guess-box.yellow {
+  background-color: #c9b458;
+  color: white;
+}
+
+.guess-box.gray {
+  background-color: #787c7e;
+  color: white;
+}
