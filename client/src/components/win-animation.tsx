@@ -47,7 +47,7 @@ export default function WinAnimation({ onPlayAgain }: WinAnimationProps) {
       ))}
 
       <motion.div
-        className="bg-white dark:bg-gray-900 rounded-lg p-8 text-center max-w-md mx-4 shadow-2xl"
+        className="bg-white rounded-lg p-8 text-center max-w-md mx-4 shadow-2xl"
         initial={{ scale: 0, rotate: -10 }}
         animate={{ scale: 1, rotate: 0 }}
         transition={{

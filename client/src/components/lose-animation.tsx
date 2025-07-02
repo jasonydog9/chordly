@@ -18,7 +18,7 @@ export default function LoseAnimation({ onPlayAgain, correctChord = "C Major (C-
       exit={{ opacity: 0 }}
     >
       <motion.div
-        className="bg-white dark:bg-gray-900 rounded-lg p-8 text-center max-w-md mx-4 shadow-2xl"
+        className="bg-white rounded-lg p-8 text-center max-w-md mx-4 shadow-2xl"
         initial={{ scale: 0, y: 50 }}
         animate={{ scale: 1, y: 0 }}
         transition={{
