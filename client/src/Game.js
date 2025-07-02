@@ -55,7 +55,6 @@ function Game({ firebaseUser, settings }) {
         setChordType(newChordType);
         setVolume(data.volume * 0.01);
       } catch (err) {
-        ("Failed to fetch settings:", err);
       }
     };
 
@@ -158,7 +157,6 @@ useEffect(() => {
         }
       }
     } catch (err) {
-      ('Error fetching or generating chord:', err);
     }
   };
 
@@ -196,7 +194,6 @@ useEffect(() => {
       }
 
     } catch (err) {
-      ('Failed to load history:', err);
     }
   };
 
@@ -330,7 +327,6 @@ useEffect(() => {
     });
 
   } catch (err) {
-    ("Failed to reset game:", err);
   }
 };
 

@@ -62,10 +62,8 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
         if (res.ok) {
           setStats(data);
         } else {
-          ("Failed to load stats:", data.error);
         }
       } catch (error) {
-        ("Error fetching stats:", error);
       }
     };
     fetchStats();
@@ -86,7 +84,6 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
           });
         }
       } catch (error) {
-        ("Error fetching settings:", error);
       }
     };
     fetchSettings();
@@ -114,7 +111,6 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
       setSettings(editedSettings);
       onSettingsChange?.(editedSettings);
     } catch (err) {
-      ("Error saving settings:", err);
     }
   };
 
