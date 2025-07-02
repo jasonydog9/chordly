@@ -20,7 +20,6 @@ const Login = () => {
 
       const data = await res.json();
     } catch (err) {
-      alert('Login failed.');
     }
   };
 

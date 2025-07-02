@@ -106,7 +106,7 @@
             "Properties": {
               "Code": {
                 "S3Bucket": "serverless-framework-deployments-us-east-2-409f30a0-0f63",
-                "S3Key": "serverless/chordly-api/dev/1751486460509-2025-07-02T20:01:00.509Z/chordly-api.zip"
+                "S3Key": "serverless/chordly-api/dev/1751494544450-2025-07-02T22:15:44.450Z/chordly-api.zip"
               },
               "Handler": "handler.handler",
               "Runtime": "nodejs18.x",
@@ -129,14 +129,14 @@
               "AppLogGroup"
             ]
           },
-          "AppLambdaVersionSoyhCP1RARrSwte34CjNGGvkmFUWyra2h5vbvlpNfiU": {
+          "AppLambdaVersionE2YkoVd9v6y1XBeSSvkJYwU3JwrNJ9jdPwEJcLp7v0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "1U1CjkBgqNDnuDsqbXwyGZuh9J2qGus2mNvk5w1+0jU="
+              "CodeSha256": "Jr6W78v4fkdi7efb2R2PSpM2Gdq1Yi75U8jJDYXKIhM="
             }
           },
           "HttpApi": {
@@ -242,7 +242,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersionSoyhCP1RARrSwte34CjNGGvkmFUWyra2h5vbvlpNfiU"
+              "Ref": "AppLambdaVersionE2YkoVd9v6y1XBeSSvkJYwU3JwrNJ9jdPwEJcLp7v0"
             },
             "Export": {
               "Name": "sls-chordly-api-dev-AppLambdaFunctionQualifiedArn"
@@ -310,7 +310,7 @@
         "timeout": 6,
         "runtime": "nodejs18.x",
         "vpc": {},
-        "versionLogicalId": "AppLambdaVersionSoyhCP1RARrSwte34CjNGGvkmFUWyra2h5vbvlpNfiU"
+        "versionLogicalId": "AppLambdaVersionE2YkoVd9v6y1XBeSSvkJYwU3JwrNJ9jdPwEJcLp7v0"
       }
     },
     "configValidationMode": "warn",
@@ -336,7 +336,7 @@
     "artifact": "C:\\Users\\jason\\chord-game-app\\server\\.serverless\\chordly-api.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/chordly-api/dev/1751486460509-2025-07-02T20:01:00.509Z",
+    "artifactDirectoryName": "serverless/chordly-api/dev/1751494544450-2025-07-02T22:15:44.450Z",
     "artifact": "chordly-api.zip"
   }
 }

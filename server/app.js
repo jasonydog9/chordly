@@ -12,7 +12,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'https://main.d3ejib4je4v5tu.amplifyapp.com', // replace with frontend domain
+  origin: 'https://chordly.org', // replace with frontend domain
   credentials: true
 }));
 app.use(express.json());
