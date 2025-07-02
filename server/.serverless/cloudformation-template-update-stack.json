@@ -91,7 +91,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "serverless-framework-deployments-us-east-2-409f30a0-0f63",
-          "S3Key": "serverless/chordly-api/dev/1751476872266-2025-07-02T17:21:12.266Z/chordly-api.zip"
+          "S3Key": "serverless/chordly-api/dev/1751486460509-2025-07-02T20:01:00.509Z/chordly-api.zip"
         },
         "Handler": "handler.handler",
         "Runtime": "nodejs18.x",
@@ -114,14 +114,14 @@
         "AppLogGroup"
       ]
     },
-    "AppLambdaVersionw9ocqCzsj2j2DMD9dF4Aquf02VOuaFEY0paMhbRnQ": {
+    "AppLambdaVersionSoyhCP1RARrSwte34CjNGGvkmFUWyra2h5vbvlpNfiU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AppLambdaFunction"
         },
-        "CodeSha256": "oTqfki4sJ2LM+TeKd7n7lmUN+KB9+fFq4g2v89ZCJWo="
+        "CodeSha256": "1U1CjkBgqNDnuDsqbXwyGZuh9J2qGus2mNvk5w1+0jU="
       }
     },
     "HttpApi": {
@@ -230,7 +230,7 @@
     "AppLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AppLambdaVersionw9ocqCzsj2j2DMD9dF4Aquf02VOuaFEY0paMhbRnQ"
+        "Ref": "AppLambdaVersionSoyhCP1RARrSwte34CjNGGvkmFUWyra2h5vbvlpNfiU"
       },
       "Export": {
         "Name": "sls-chordly-api-dev-AppLambdaFunctionQualifiedArn"

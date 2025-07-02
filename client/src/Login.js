@@ -10,10 +10,6 @@ const Login = () => {
       const user = result.user;
       const idToken = await user.getIdToken();
 
-      console.log('User:', user);
-      console.log('Token:', idToken);
-
-      console.log('Sending POST to backend with token...');
       const res = await fetch('https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/login', {
         method: 'POST',
         headers: {
@@ -23,10 +19,7 @@ const Login = () => {
       });
 
       const data = await res.json();
-      console.log('✅ Logged in as:', data.user);
-      alert(`Welcome, ${data.user.displayName}!`);
     } catch (err) {
-      console.error('❌ Google login error:', err);
       alert('Login failed.');
     }
   };

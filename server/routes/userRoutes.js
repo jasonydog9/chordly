@@ -226,5 +226,26 @@ router.post('/:uid/increment-attempts', async (req, res) => {
   }
 });
 
+router.post('/:uid/displayName', async (req, res) => {
+  try {
+    const user = await User.findOne({ uid: req.params.uid });
+    if (!user) return res.status(404).json({ error: 'User not found' });
+
+    const { displayName } = req.body;
+    if (typeof displayName !== 'string' || displayName.trim() === '') {
+      return res.status(400).json({ error: 'Invalid or missing displayName' });
+    }
+
+    user.displayName = displayName.trim();
+    await user.save();
+
+    res.json({ message: 'Display name updated', displayName: user.displayName });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+
 
 module.exports = router;

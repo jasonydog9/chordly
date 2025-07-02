@@ -32,7 +32,6 @@ function Game({ firebaseUser, settings }) {
    useEffect(() => {
     // Initialize audio manager with custom volume when component mounts
     const audioManager = initializeAudioManager(volume)
-    console.log(`Audio manager initialized with volume: ${volume}`)
   }, [])
 
   useEffect(() => {
@@ -56,7 +55,7 @@ function Game({ firebaseUser, settings }) {
         setChordType(newChordType);
         setVolume(data.volume * 0.01);
       } catch (err) {
-        console.error("Failed to fetch settings:", err);
+        ("Failed to fetch settings:", err);
       }
     };
 
@@ -106,7 +105,6 @@ const generateFeedback = (guess, answer) => {
   if (settings?.volume && firebaseUser) {
     const newVolume = settings.volume * 0.01 || 1;
     setVolume(newVolume);
-    console.log("Volume set to:", newVolume);
   }
 }, [settings?.volume, firebaseUser]);
 
@@ -139,16 +137,13 @@ useEffect(() => {
 
 
       if (data?.currentChord && data.currentChord.length > 0) {
-        console.log('Current chord found in DB:', data.currentChord);
         setAnswer(data.currentChord);
       } else {
-        console.log('No chord found. Generating new one...');
         const randomRes = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/chords/random?type=${chordType}`);
         const randomData = await randomRes.json();
 
 
         if (randomData?.notes) {
-          console.log('Generated new chord:', randomData.notes);
           setAnswer(randomData.notes);
 
 
@@ -163,7 +158,7 @@ useEffect(() => {
         }
       }
     } catch (err) {
-      console.error('Error fetching or generating chord:', err);
+      ('Error fetching or generating chord:', err);
     }
   };
 
@@ -201,7 +196,7 @@ useEffect(() => {
       }
 
     } catch (err) {
-      console.error('Failed to load history:', err);
+      ('Failed to load history:', err);
     }
   };
 
@@ -296,7 +291,6 @@ useEffect(() => {
   await audioManager.playClickSound();
 
   const resolvedType = type || chordType || '5-note'; // safe fallback
-  console.log(resolvedType);
   setHasReset(true);
   const attempts = guesses.length;
 
@@ -322,7 +316,6 @@ useEffect(() => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ currentChord: chordData.notes }),
     });
-    console.log("Setting currentChord:", chordData.notes);
 
     // Increment games played
     await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/increment-games`, {
@@ -337,7 +330,7 @@ useEffect(() => {
     });
 
   } catch (err) {
-    console.error("Failed to reset game:", err);
+    ("Failed to reset game:", err);
   }
 };
 

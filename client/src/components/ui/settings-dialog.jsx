@@ -42,7 +42,6 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
     email: firebaseUser.email,
     volume: [75],
     difficulty: "easy",
-    theme: "system",
   });
 
   const [editedSettings, setEditedSettings] = useState({ ...settings });
@@ -63,10 +62,10 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
         if (res.ok) {
           setStats(data);
         } else {
-          console.error("Failed to load stats:", data.error);
+          ("Failed to load stats:", data.error);
         }
       } catch (error) {
-        console.error("Error fetching stats:", error);
+        ("Error fetching stats:", error);
       }
     };
     fetchStats();
@@ -84,11 +83,10 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
             email: firebaseUser.email,
             volume: [data.volume],
             difficulty: data.difficulty,
-            theme: data.theme,
           });
         }
       } catch (error) {
-        console.error("Error fetching settings:", error);
+        ("Error fetching settings:", error);
       }
     };
     fetchSettings();
@@ -116,7 +114,7 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
       setSettings(editedSettings);
       onSettingsChange?.(editedSettings);
     } catch (err) {
-      console.error("Error saving settings:", err);
+      ("Error saving settings:", err);
     }
   };
 
@@ -133,11 +131,10 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
         </DialogHeader>
 
         <Tabs defaultValue="profile" className="w-full">
-          <TabsList className="grid w-full grid-cols-4">
+          <TabsList className="grid w-full grid-cols-3">
             <TabsTrigger value="profile"><User className="h-4 w-4" /> Profile</TabsTrigger>
             <TabsTrigger value="audio"><Volume2 className="h-4 w-4" /> Audio</TabsTrigger>
             <TabsTrigger value="game"><Gamepad2 className="h-4 w-4" /> Game</TabsTrigger>
-            <TabsTrigger value="appearance"><Palette className="h-4 w-4" /> Theme</TabsTrigger>
           </TabsList>
 
           <TabsContent value="profile" className="space-y-4">
@@ -148,11 +145,22 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
                   <CardDescription>Update your personal information</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <Label htmlFor="displayName">Display Name</Label>
-                  <Input id="displayName" value={editedSettings.displayName} onChange={(e) => setEditedSettings(prev => ({ ...prev, displayName: e.target.value }))} />
-                  <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" value={editedSettings.email} onChange={(e) => setEditedSettings(prev => ({ ...prev, email: e.target.value }))} />
-                </CardContent>
+  <Label htmlFor="displayName">Display Name</Label>
+  <Input
+    id="displayName"
+    value={editedSettings.displayName}
+    readOnly
+  />
+
+  <Label htmlFor="email">Email</Label>
+  <Input
+    id="email"
+    type="email"
+    value={editedSettings.email}
+    readOnly
+  />
+</CardContent>
+
               </Card>
             </MotionCard>
 
@@ -224,27 +232,6 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
             </MotionCard>
           </TabsContent>
 
-          <TabsContent value="appearance" className="space-y-4">
-            <MotionCard>
-              <Card>
-                <CardHeader>
-                  <CardTitle>Theme Settings</CardTitle>
-                  <CardDescription>Choose your style</CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <Label>Color Theme</Label>
-                  <Select value={editedSettings.theme} onValueChange={(value) => setEditedSettings(prev => ({ ...prev, theme: value }))}>
-                    <SelectTrigger><SelectValue /></SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="light">Light</SelectItem>
-                      <SelectItem value="dark">Dark</SelectItem>
-                      <SelectItem value="system">System</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </CardContent>
-              </Card>
-            </MotionCard>
-          </TabsContent>
         </Tabs>
 
         <div className="flex justify-end gap-2 pt-4 border-t">
