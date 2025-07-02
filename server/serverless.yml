@@ -1,0 +1,21 @@
+service: chordly-api
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-2
+  environment:
+    MONGODB_URI: ${env:MONGODB_URI}
+
+functions:
+  app:
+    handler: handler.handler
+    events:
+      - httpApi: '*'
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 3001

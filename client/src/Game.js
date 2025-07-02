@@ -41,7 +41,7 @@ function Game({ firebaseUser, settings }) {
 
 
       try {
-        const res = await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/settings`);
+        const res = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/settings`);
         const data = await res.json();
 
 
@@ -134,7 +134,7 @@ useEffect(() => {
 
   const fetchOrGenerateChord = async () => {
     try {
-      const res = await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/current-chord`);
+      const res = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/current-chord`);
       const data = await res.json();
 
 
@@ -143,7 +143,7 @@ useEffect(() => {
         setAnswer(data.currentChord);
       } else {
         console.log('No chord found. Generating new one...');
-        const randomRes = await fetch(`http://localhost:3001/api/chords/random?type=${chordType}`);
+        const randomRes = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/chords/random?type=${chordType}`);
         const randomData = await randomRes.json();
 
 
@@ -153,7 +153,7 @@ useEffect(() => {
 
 
           // Optional: store new chord as currentChord in DB
-          await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/current-chord`, {
+          await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/current-chord`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -177,7 +177,7 @@ useEffect(() => {
 
   const loadHistory = async () => {
     try {
-      const res = await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/history`);
+      const res = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/history`);
       const history = await res.json();
 
       const reconstructed = history.map(entry => ({
@@ -223,7 +223,7 @@ useEffect(() => {
 
 
   if (firebaseUser) {
-    await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/guess`, {
+    await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/guess`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -252,7 +252,7 @@ useEffect(() => {
       setMessage('🎉 Correct! You guessed the chord!');
 
 
-      await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/increment-wins`, {
+      await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/increment-wins`, {
       method: 'POST',
     });
 
@@ -307,17 +307,17 @@ useEffect(() => {
 
   try {
     // Reset history FIRST
-    await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/reset-history`, {
+    await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/reset-history`, {
       method: 'POST',
     });
 
     // Fetch a new random chord using the passed-in `type` (not state)
-    const chordRes = await fetch(`http://localhost:3001/api/chords/random?type=${resolvedType}`);
+    const chordRes = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/chords/random?type=${resolvedType}`);
     const chordData = await chordRes.json();
     setAnswer(chordData.notes);
 
     // Save currentChord to DB
-    await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/current-chord`, {
+    await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/current-chord`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ currentChord: chordData.notes }),
@@ -325,12 +325,12 @@ useEffect(() => {
     console.log("Setting currentChord:", chordData.notes);
 
     // Increment games played
-    await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/increment-games`, {
+    await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/increment-games`, {
       method: 'POST',
     });
 
     // Increment attempts
-    await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/increment-attempts`, {
+    await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/increment-attempts`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ amount: attempts }),

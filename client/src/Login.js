@@ -14,7 +14,7 @@ const Login = () => {
       console.log('Token:', idToken);
 
       console.log('Sending POST to backend with token...');
-      const res = await fetch('http://localhost:3001/api/login', {
+      const res = await fetch('https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

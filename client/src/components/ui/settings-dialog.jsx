@@ -58,7 +58,7 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
     const fetchStats = async () => {
       if (!firebaseUser?.uid) return;
       try {
-        const res = await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/stats`);
+        const res = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/stats`);
         const data = await res.json();
         if (res.ok) {
           setStats(data);
@@ -76,7 +76,7 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
     const fetchSettings = async () => {
       if (!firebaseUser?.uid) return;
       try {
-        const res = await fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/settings`);
+        const res = await fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/settings`);
         const data = await res.json();
         if (res.ok) {
           setSettings({
@@ -105,7 +105,7 @@ export default function SettingsDialog({ firebaseUser, children, onSettingsChang
     try {
       const updatePromises = Object.entries(editedSettings).map(([key, value]) => {
         const sendValue = Array.isArray(value) && value.length === 1 ? value[0] : value;
-        return fetch(`http://localhost:3001/api/users/${firebaseUser.uid}/change-${key}`, {
+        return fetch(`https://86a7glme66.execute-api.us-east-2.amazonaws.com/api/users/${firebaseUser.uid}/change-${key}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ [key]: sendValue }),
