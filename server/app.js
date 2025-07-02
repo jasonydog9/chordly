@@ -12,7 +12,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000', // replace with frontend domain
+  origin: 'https://86a7glme66.execute-api.us-east-2.amazonaws.com', // replace with frontend domain
   credentials: true
 }));
 app.use(express.json());
