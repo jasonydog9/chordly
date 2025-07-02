@@ -27,13 +27,13 @@ export default function Help() {
             <CardContent className="space-y-4">
               <div>
                 <h3 className="font-semibold mb-2">Objective</h3>
-                <p className="text-sm text-muted-foreground mb-4">Guess the 3-note chord in 6 attempts or fewer.</p>
+                <p className="text-sm text-muted-foreground mb-4">Guess the chord in 5 attempts or fewer.</p>
               </div>
               <div>
                 <h3 className="font-semibold mb-2">How to Play</h3>
                 <ol className="list-decimal list-inside space-y-2 text-sm text-muted-foreground">
                   <li>Click "Play Chord" to hear the target chord</li>
-                  <li>Click on piano keys to select your guess (3 notes)</li>
+                  <li>Click on piano keys to select your guess</li>
                   <li>Click "Submit Guess" to see your feedback</li>
                   <li>Use the feedback to refine your next guess</li>
                   <li>Repeat until you guess correctly or run out of attempts</li>
