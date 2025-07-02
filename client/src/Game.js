@@ -254,7 +254,7 @@ useEffect(() => {
       audioManager.setMasterVolume(volume);
       await audioManager.playFailureSound();
       setGameOver(true);
-      setMessage(`❌ `);
+      setMessage(`❌ Game Over`);
     }
   };
 
