@@ -28,6 +28,9 @@ export default function About() {
     "React",
     "MongoDB",
     "Express",
+    "Node",
+    "AWS",
+    "Serverless",
     "TypeScript",
     "Tailwind CSS",
     "Framer Motion",
@@ -293,33 +296,16 @@ I've been playing the trombone for 7 years, and I have some basic piano experien
             </p>
             <div className="flex flex-wrap gap-3">
               <Button variant="outline" size="sm" asChild>
-                <a href="https://github.com/jasonydog9" className="flex items-center gap-2">
+                <a href="https://github.com/jasonydog9" target="_blank" className="flex items-center gap-2">
                   <Github className="h-4 w-4" />
                   GitHub
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a href="https://www.linkedin.com/in/jason-yap-71b20a253/" className="flex items-center gap-2">
+                <a href="https://www.linkedin.com/in/jason-yap-71b20a253/" target="_blank" className="flex items-center gap-2">
                   <Linkedin className="h-4 w-4" />
                   LinkedIn
-                  <ExternalLink className="h-3 w-3" />
-                </a>
-              </Button>
-
-<Button variant="outline" size="sm" asChild>
-  <Slot>
-    <a href="mailto:jason.yap0@gmail.com" className="flex items-center gap-2">
-      <Mail className="h-4 w-4" />
-      Email
-      <ExternalLink className="h-3 w-3" />
-    </a>
-  </Slot>
-</Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://buymeacoffee.com/alexchen" className="flex items-center gap-2">
-                  <Coffee className="h-4 w-4" />
-                  Buy me a coffee
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </Button>
