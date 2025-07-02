@@ -1,5 +1,5 @@
 import './Piano.css';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { RefreshCw as Refresh, Volume2, HelpCircle } from "lucide-react";
 import { Button } from "./components/ui/button.tsx"; // adjust the path to where Button lives in your project
 import { Card, CardContent } from "./components/ui/card.tsx";
@@ -14,10 +14,8 @@ import LoseAnimation from "./components/lose-animation.tsx"
 import { getAudioManager, initializeAudioManager} from "./components/audio-manager.tsx"
 
 
-const noteNames = [
-  "C3", "Cs3", "D3", "Ds3", "E3", "F3", "Fs3", "G3", "Gs3", "A3", "As3", "B3",
-  "C4", "Cs4", "D4", "Ds4", "E4", "F4", "Fs4", "G4", "Gs4", "A4", "As4", "B4",
-  "C5", "Cs5", "D5", "Ds5", "E5", "F5", "Fs5", "G5", "Gs5"
+const NOTES = [
+  'C4', 'C#4', 'D4', 'D#4', 'E4', 'F4', 'F#4', 'G4', 'G#4', 'A4', 'A#4', 'B4'
 ];
 
 
@@ -30,73 +28,7 @@ function Game({ firebaseUser, settings }) {
   const [chordType, setChordType] = useState('5-note');
   const [hasReset, setHasReset] = useState(false);
   const [volume, setVolume] = useState(1);
-  const audioContextRef = useRef(null);
-  const gainNodeRef = useRef(null);
-  const audioCacheRef = useRef({});
 
-   useEffect(() => {
-    const handleFirstInteraction = () => {
-      if (!audioContextRef.current) {
-        audioContextRef.current = new (window.AudioContext || window.webkitAudioContext)();
-        gainNodeRef.current = audioContextRef.current.createGain();
-        gainNodeRef.current.connect(audioContextRef.current.destination);
-      }
-
-      // Preload all notes once
-      noteNames.forEach(note => {
-        const audio = new Audio(`/piano-notes/${note}.mp3`);
-        audio.load();
-        audioCacheRef.current[note] = audio;
-      });
-
-      document.removeEventListener('click', handleFirstInteraction);
-    };
-
-    document.addEventListener('click', handleFirstInteraction, { once: true });
-    // Optional: also listen for touchstart for mobile
-    document.addEventListener('touchstart', handleFirstInteraction, { once: true });
-
-    return () => {
-      document.removeEventListener('click', handleFirstInteraction);
-      document.removeEventListener('touchstart', handleFirstInteraction);
-    };
-  }, []);
-
-  // Replace playNote function with optimized version using cache and single AudioContext
-  function playNote(note, vol = volume) {
-    if (!audioContextRef.current || !gainNodeRef.current) {
-      // AudioContext not initialized yet; fallback to your old method or do nothing
-      return;
-    }
-
-    const cachedAudio = audioCacheRef.current[note];
-    if (!cachedAudio) {
-      console.warn(`Note ${note} not preloaded or does not exist`);
-      return;
-    }
-
-    // Clone audio element so multiple notes can play simultaneously
-    const clonedAudio = cachedAudio.cloneNode(true);
-
-    // Create MediaElementSource and GainNode per play
-    const source = audioContextRef.current.createMediaElementSource(clonedAudio);
-    const localGain = audioContextRef.current.createGain();
-    localGain.gain.value = vol;
-
-    source.connect(localGain).connect(audioContextRef.current.destination);
-
-    clonedAudio.play().catch(e => {
-      // On iOS and some browsers, playback must be triggered by user interaction.
-      // This is a safe catch to prevent uncaught errors.
-      console.warn('Audio play prevented:', e);
-    });
-  }
-
-  // Adjust playHint to use new playNote
-  function playHint(vol = volume) {
-    if (!answer) return;
-    answer.forEach(note => playNote(note, vol));
-  }
    useEffect(() => {
     // Initialize audio manager with custom volume when component mounts
     const audioManager = initializeAudioManager(volume)
@@ -394,6 +326,27 @@ useEffect(() => {
   } catch (err) {
   }
 };
+
+
+
+
+
+
+  function playNote(note, vol = volume) {
+  const sanitizedNote = note.replace('#', 's');
+  const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+  const gainNode = audioContext.createGain();
+  gainNode.gain.value = vol; // 0.0 = silent, 1.0 = full volume
+
+  const audio = new Audio(`/piano-notes/${sanitizedNote}.mp3`);
+  const source = audioContext.createMediaElementSource(audio);
+
+  source.connect(gainNode).connect(audioContext.destination);
+  audio.play();
+}
+  function playHint(vol = volume) {
+  answer.forEach(note => playNote(note));
+}
  
 
 
@@ -537,6 +490,3 @@ useEffect(() => {
 
 
 export default Game;
-
-
-
