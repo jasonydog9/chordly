@@ -104,6 +104,8 @@ const generateFeedback = (guess, answer) => {
   if (settings?.volume && firebaseUser) {
     const newVolume = settings.volume * 0.01 || 1;
     setVolume(newVolume);
+    const audioManager = getAudioManager();
+    audioManager.setMasterVolume(volume);
   }
 }, [settings?.volume, firebaseUser]);
 
@@ -204,7 +206,6 @@ useEffect(() => {
   const handleSubmit = async () => {
 
   const audioManager = getAudioManager();
-  audioManager.setMasterVolume(volume);
   await audioManager.playSubmitSound();
   if (!answer || currentGuess.length !== parseInt(chordType) || gameOver) return;
 
@@ -238,7 +239,6 @@ useEffect(() => {
 
     if (isCorrect) {
       const audioManager = getAudioManager();
-      audioManager.setMasterVolume(volume);
       await audioManager.playSuccessSound();
       setGameOver(true);
       setMessage('🎉 Correct! You guessed the chord!');
@@ -251,7 +251,6 @@ useEffect(() => {
 
     } else if (newGuesses.length >= 5) {
       const audioManager = getAudioManager();
-      audioManager.setMasterVolume(volume);
       await audioManager.playFailureSound();
       setGameOver(true);
       setMessage(`❌ Game Over`);
@@ -270,7 +269,6 @@ useEffect(() => {
   const removeNote = async (index) => {
     setCurrentGuess(currentGuess.filter((_, i) => i !== index));
     const audioManager = getAudioManager();
-    audioManager.setMasterVolume(volume);
     await audioManager.playClickSound();
   };
 
@@ -284,7 +282,6 @@ useEffect(() => {
 
 
   const audioManager = getAudioManager();
-  audioManager.setMasterVolume(volume);
   await audioManager.playClickSound();
 
   const resolvedType = type || chordType || '5-note'; // safe fallback
